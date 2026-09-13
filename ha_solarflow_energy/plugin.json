@@ -1,0 +1,86 @@
+{
+  "tesserae_compat": "1.x",
+  "name": "HA SolarFlow Energy",
+  "version": "2.2.0",
+  "kind": "widget",
+  "locales": ["en", "de"],
+  "description": "Live SolarFlow / Zendure AIO snapshot via Home Assistant Core: PV, house, battery, grid. Optional 24h sparkline and Forecast.Solar totals.",
+  "icon": "ph-chart-line",
+  "supports": {
+    "sizes": ["sm", "md", "lg"]
+  },
+  "cell_options": [
+    {
+      "name": "solar_entity",
+      "type": "select",
+      "label": "Solar power entity",
+      "default": "",
+      "choices_from": "entity"
+    },
+    {
+      "name": "home_entity",
+      "type": "select",
+      "label": "House power entity",
+      "default": "",
+      "choices_from": "entity"
+    },
+    {
+      "name": "grid_entity",
+      "type": "select",
+      "label": "Grid power entity",
+      "default": "",
+      "choices_from": "entity"
+    },
+    {
+      "name": "battery_charge_entity",
+      "type": "select",
+      "label": "Battery charge power entity",
+      "default": "",
+      "choices_from": "entity"
+    },
+    {
+      "name": "battery_discharge_entity",
+      "type": "select",
+      "label": "Battery discharge power entity",
+      "default": "",
+      "choices_from": "entity"
+    },
+    {
+      "name": "battery_soc_entity",
+      "type": "select",
+      "label": "Battery SoC entity",
+      "default": "",
+      "choices_from": "entity"
+    },
+    {
+      "name": "forecast_today_entity",
+      "type": "select",
+      "label": "PV forecast today (kWh) entity",
+      "default": "",
+      "choices_from": "entity"
+    },
+    {
+      "name": "forecast_tomorrow_entity",
+      "type": "select",
+      "label": "PV forecast tomorrow (kWh) entity",
+      "default": "",
+      "choices_from": "entity"
+    },
+    {
+      "name": "label",
+      "type": "string",
+      "label": "Place label",
+      "default": "Home"
+    }
+  ],
+  "fragments": [
+    { "id": "full", "label": "Full card", "w": 320, "h": 260, "icon": "ph-chart-line" },
+    { "id": "stats", "label": "Stats only", "w": 200, "h": 120, "icon": "ph-lightning" }
+  ],
+  "render": {
+    "needs_network": false
+  },
+  "requires": [
+    "settings:plugin/ha_core"
+  ]
+}

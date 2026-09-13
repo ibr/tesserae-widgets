@@ -1,0 +1,17 @@
+{
+  "title": "Energie",
+  "pv": "PV",
+  "house": "Haus",
+  "battery": "Akku",
+  "grid": "Netz",
+  "today": "heute",
+  "tomorrow": "morgen",
+  "forecast_today": "PV Ertrag heute",
+  "forecast_tomorrow": "PV Ertrag morgen",
+  "charging": "lädt",
+  "discharging": "entlädt",
+  "idle": "bereit",
+  "no_curve": "Keine Kurve",
+  "err_no_ha_connection": "Home Assistant Core Plugin nicht installiert.",
+  "err_fetch_failed": "Home Assistant nicht erreichbar."
+}

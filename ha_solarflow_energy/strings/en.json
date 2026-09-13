@@ -1,0 +1,17 @@
+{
+  "title": "Energy",
+  "pv": "PV",
+  "house": "Home",
+  "battery": "Battery",
+  "grid": "Grid",
+  "today": "today",
+  "tomorrow": "tomorrow",
+  "forecast_today": "PV yield today",
+  "forecast_tomorrow": "PV yield tomorrow",
+  "charging": "charging",
+  "discharging": "discharging",
+  "idle": "idle",
+  "no_curve": "No curve",
+  "err_no_ha_connection": "Home Assistant Core plugin not installed.",
+  "err_fetch_failed": "Home Assistant is unreachable."
+}

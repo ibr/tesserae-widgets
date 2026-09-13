@@ -158,7 +158,7 @@
     {
       "id": "arr_recently_added",
       "name": "Arr Recently Added",
-      "description": "Newly downloaded shows and movies straight from Sonarr / Radarr history — an editorial hero with the latest poster, a poster wall, or a compact list. Cover art is fetched and inlined server-side; your API keys never reach the panel. Works with either app or both.",
+      "description": "Newly downloaded shows and movies straight from Sonarr / Radarr history \u2014 an editorial hero with the latest poster, a poster wall, or a compact list. Cover art is fetched and inlined server-side; your API keys never reach the panel. Works with either app or both.",
       "icon": "ph-download-simple",
       "author": {
         "name": "Kayden D'Mello",
@@ -637,7 +637,7 @@
     {
       "id": "goodreads_shelf",
       "name": "Goodreads Shelf",
-      "description": "Your Goodreads bookshelf — recent reads with covers, star ratings, a now-reading line and reading stats, read from a public shelf's RSS feed. No API key: just a user ID with a public profile. Shelves: read, currently reading, want to read; list and stats fragments.",
+      "description": "Your Goodreads bookshelf \u2014 recent reads with covers, star ratings, a now-reading line and reading stats, read from a public shelf's RSS feed. No API key: just a user ID with a public profile. Shelves: read, currently reading, want to read; list and stats fragments.",
       "icon": "ph-books",
       "author": {
         "name": "Kayden D'Mello",
@@ -924,7 +924,7 @@
     {
       "id": "plex_recently_added",
       "name": "Plex Recently Added",
-      "description": "What just landed in your Plex library — an editorial hero with the newest poster, a poster wall, or a compact list. Reads recentlyAdded across every section (movies, shows, music) and inlines the cover art server-side; your Plex token never reaches the panel.",
+      "description": "What just landed in your Plex library \u2014 an editorial hero with the newest poster, a poster wall, or a compact list. Reads recentlyAdded across every section (movies, shows, music) and inlines the cover art server-side; your Plex token never reaches the panel.",
       "icon": "ph-play-circle",
       "author": {
         "name": "Kayden D'Mello",
@@ -952,8 +952,8 @@
     },
     {
       "id": "pokedex",
-      "name": "Pokédex",
-      "description": "A Pokédex entry from PokéAPI — real base stats, types, pixel sprite and dex text. Random every refresh, Pokémon of the day, or a fixed pick; pool from the Kanto 151 to all 1025. Three looks: house style, classic red Pokédex device, or Game Boy mono green.",
+      "name": "Pok\u00e9dex",
+      "description": "A Pok\u00e9dex entry from Pok\u00e9API \u2014 real base stats, types, pixel sprite and dex text. Random every refresh, Pok\u00e9mon of the day, or a fixed pick; pool from the Kanto 151 to all 1025. Three looks: house style, classic red Pok\u00e9dex device, or Game Boy mono green.",
       "icon": "ph-lightning",
       "author": {
         "name": "Kayden D'Mello",
@@ -1008,7 +1008,7 @@
     {
       "id": "posthog_metric",
       "name": "PostHog Metric",
-      "description": "Hero number for any PostHog trends metric — pick the event, math, date range, and an optional property filter to point it at your own project and site. Optional area sparkline or bars, a trend chip, and peak/avg stats. Bring your own PostHog API key.",
+      "description": "Hero number for any PostHog trends metric \u2014 pick the event, math, date range, and an optional property filter to point it at your own project and site. Optional area sparkline or bars, a trend chip, and peak/avg stats. Bring your own PostHog API key.",
       "icon": "ph-chart-line-up",
       "author": {
         "name": "Kayden D'Mello",
@@ -1149,7 +1149,7 @@
     {
       "id": "todoist",
       "name": "Todoist Tasks",
-      "description": "Open Todoist tasks for any filter query (today | overdue, #Work, p1, …), overdue-first with priority colours, due dates, projects and a due-count fragment. API token, read-only. **Testers wanted** — not yet run against a live account; feedback welcome on the repo.",
+      "description": "Open Todoist tasks for any filter query (today | overdue, #Work, p1, \u2026), overdue-first with priority colours, due dates, projects and a due-count fragment. API token, read-only. **Testers wanted** \u2014 not yet run against a live account; feedback welcome on the repo.",
       "icon": "ph-checks",
       "author": {
         "name": "Kayden D'Mello",
@@ -1394,7 +1394,7 @@
     {
       "id": "youtube_channel",
       "name": "YouTube, Channel Health",
-      "description": "One YouTube channel's health at a glance — subscribers with 7/30-day delta, latest video's views vs the previous upload, 30-day view momentum, likes + comments, and the top video this month. Bring your own free YouTube Data API key.",
+      "description": "One YouTube channel's health at a glance \u2014 subscribers with 7/30-day delta, latest video's views vs the previous upload, 30-day view momentum, likes + comments, and the top video this month. Bring your own free YouTube Data API key.",
       "icon": "ph-youtube-logo",
       "author": {
         "name": "Kayden D'Mello",
@@ -1677,16 +1677,20 @@
     {
       "id": "calendar_three_day",
       "name": "Calendar, Three Day",
-      "description": "Today + the next two days as a three-column timetable. Built from the calendar_day timetable rendering and the calendar_schedule widget's day-bucketing approach. Each event's colour comes from its feed (Widgets → Calendar Feeds).",
+      "description": "Today + the next two days as a three-column timetable. Built from the calendar_day timetable rendering and the calendar_schedule widget's day-bucketing approach. Each event's colour comes from its feed (Widgets \u2192 Calendar Feeds).",
       "icon": "ph-calendar",
       "author": {
         "name": "Tony James Stark",
         "github": "tonyjamesstark"
       },
-      "tags": ["calendar"],
+      "tags": [
+        "calendar"
+      ],
       "kind": "widget",
       "tesserae_compat": "1.x",
-      "screenshot_sizes": ["lg"],
+      "screenshot_sizes": [
+        "lg"
+      ],
       "release": {
         "version": "0.1.0",
         "tarball_url": "https://github.com/tonyjamesstark/tesserae-widget-calendar-three-day-releases/archive/refs/tags/v0.1.0.tar.gz",
@@ -1697,16 +1701,21 @@
     {
       "id": "room_status",
       "name": "Room Status",
-      "description": "Whether a meeting room is free or busy, when that changes, and what is booked next. Four layouts behind an auto default that fits the cell. Reads a feed from Widgets → Calendar Feeds; booking is optional and goes through your own endpoint.",
+      "description": "Whether a meeting room is free or busy, when that changes, and what is booked next. Four layouts behind an auto default that fits the cell. Reads a feed from Widgets \u2192 Calendar Feeds; booking is optional and goes through your own endpoint.",
       "icon": "ph-door-open",
       "author": {
         "name": "Kayden D'Mello",
         "github": "dmellok"
       },
-      "tags": ["calendar", "utility"],
+      "tags": [
+        "calendar",
+        "utility"
+      ],
       "kind": "widget",
       "tesserae_compat": "1.x",
-      "screenshot_sizes": ["lg"],
+      "screenshot_sizes": [
+        "lg"
+      ],
       "extra_screenshot_count": 5,
       "release": {
         "version": "0.5.0",
@@ -1724,13 +1733,19 @@
         "name": "Charm",
         "github": "charmmmz"
       },
-      "tags": ["utility"],
+      "tags": [
+        "utility"
+      ],
       "kind": "widget",
       "tesserae_compat": "1.x",
       "official": false,
-      "screenshot_sizes": ["lg"],
+      "screenshot_sizes": [
+        "lg"
+      ],
       "extra_screenshot_count": 3,
-      "folders": ["health_summary"],
+      "folders": [
+        "health_summary"
+      ],
       "release": {
         "version": "0.1.0",
         "tarball_url": "https://github.com/charmmmz/tesserae-widget-health-summary/archive/refs/tags/v0.1.0.tar.gz",
@@ -1744,14 +1759,18 @@
       "description": "Live evcc snapshot: PV forecast vs actual, house, battery, grid, and optional charger.",
       "icon": "ph-chart-line",
       "author": {
-        "name": "Frederik Bäumer",
+        "name": "Frederik B\u00e4umer",
         "github": "fbaeumer"
       },
-      "tags": ["utility"],
+      "tags": [
+        "utility"
+      ],
       "kind": "widget",
       "tesserae_compat": "1.x",
       "official": false,
-      "screenshot_sizes": ["lg"],
+      "screenshot_sizes": [
+        "lg"
+      ],
       "extra_screenshot_count": 1,
       "release": {
         "version": "1.0.1",
@@ -1763,7 +1782,7 @@
     {
       "id": "ha_weather",
       "name": "Home Assistant, Weather",
-      "description": "Current conditions + daily or hourly forecast from any Home Assistant weather entity (met.no, MeteoSwiss, Météo-France, BoM, ...). Hero, forecast strip, and up to six metric tiles: humidity, wind with compass bearing, rain, pressure, gusts, visibility. Requires HA Core.",
+      "description": "Current conditions + daily or hourly forecast from any Home Assistant weather entity (met.no, MeteoSwiss, M\u00e9t\u00e9o-France, BoM, ...). Hero, forecast strip, and up to six metric tiles: humidity, wind with compass bearing, rain, pressure, gusts, visibility. Requires HA Core.",
       "icon": "ph-cloud-sun",
       "author": {
         "name": "Kayden D'Mello",
@@ -1799,12 +1818,22 @@
         "name": "Dennis Rehbehn",
         "github": "Bestora"
       },
-      "tags": ["media", "calendar"],
+      "tags": [
+        "media",
+        "calendar"
+      ],
       "kind": "widget",
       "tesserae_compat": "1.x",
       "official": false,
-      "screenshot_sizes": ["lg"],
-      "folders": ["mal_core", "mal_schedule", "mal_month", "mal_releases"],
+      "screenshot_sizes": [
+        "lg"
+      ],
+      "folders": [
+        "mal_core",
+        "mal_schedule",
+        "mal_month",
+        "mal_releases"
+      ],
       "release": {
         "version": "0.1.0",
         "tarball_url": "https://github.com/Bestora/tesserae-widget-myanimelist/archive/refs/tags/v0.1.0.tar.gz",
@@ -1821,12 +1850,22 @@
         "name": "Dennis Rehbehn",
         "github": "Bestora"
       },
-      "tags": ["media", "calendar"],
+      "tags": [
+        "media",
+        "calendar"
+      ],
       "kind": "widget",
       "tesserae_compat": "1.x",
       "official": false,
-      "screenshot_sizes": ["lg"],
-      "folders": ["trakt_core", "trakt_schedule", "trakt_month", "trakt_releases"],
+      "screenshot_sizes": [
+        "lg"
+      ],
+      "folders": [
+        "trakt_core",
+        "trakt_schedule",
+        "trakt_month",
+        "trakt_releases"
+      ],
       "release": {
         "version": "0.1.0",
         "tarball_url": "https://github.com/Bestora/tesserae-widget-trakt/archive/refs/tags/v0.1.0.tar.gz",
@@ -1843,13 +1882,23 @@
         "name": "Kayden D'Mello",
         "github": "dmellok"
       },
-      "tags": ["utility"],
+      "tags": [
+        "utility"
+      ],
       "kind": "widget",
       "tesserae_compat": "1.x",
       "official": true,
-      "screenshot_sizes": ["xs", "sm", "md", "lg"],
+      "screenshot_sizes": [
+        "xs",
+        "sm",
+        "md",
+        "lg"
+      ],
       "extra_screenshot_count": 3,
-      "folders": ["hubitat_core", "hubitat_sensor"],
+      "folders": [
+        "hubitat_core",
+        "hubitat_sensor"
+      ],
       "release": {
         "version": "0.1.1",
         "tarball_url": "https://github.com/dmellok/tesserae-widget-hubitat/archive/refs/tags/v0.1.1.tar.gz",
@@ -1866,11 +1915,16 @@
         "name": "N4ASS",
         "github": "WROG208"
       },
-      "tags": ["finance", "utility"],
+      "tags": [
+        "finance",
+        "utility"
+      ],
       "kind": "widget",
       "tesserae_compat": "1.x",
       "official": false,
-      "screenshot_sizes": ["lg"],
+      "screenshot_sizes": [
+        "lg"
+      ],
       "release": {
         "version": "1.0.1",
         "tarball_url": "https://github.com/WROG208/tesserae-openrouter-usage/archive/refs/tags/v1.0.1.tar.gz",
@@ -1887,11 +1941,15 @@
         "name": "N4ASS",
         "github": "WROG208"
       },
-      "tags": ["utility"],
+      "tags": [
+        "utility"
+      ],
       "kind": "widget",
       "tesserae_compat": "1.x",
       "official": false,
-      "screenshot_sizes": ["lg"],
+      "screenshot_sizes": [
+        "lg"
+      ],
       "extra_screenshot_count": 7,
       "release": {
         "version": "1.1.3",
@@ -1903,19 +1961,26 @@
     {
       "id": "koi_pond",
       "name": "Koi Pond",
-      "description": "Full-bleed, top-down generative koi pond: seeded lily pads, day-opening lotus flowers, and koi that drift with the clock — the same pond persists across refreshes, gently alive. 15 palettes, borderless and no-gradient modes, optional Home Assistant entity koi sized by value.",
+      "description": "Full-bleed, top-down generative koi pond: seeded lily pads, day-opening lotus flowers, and koi that drift with the clock \u2014 the same pond persists across refreshes, gently alive. 15 palettes, borderless and no-gradient modes, optional Home Assistant entity koi sized by value.",
       "icon": "ph-fish",
       "author": {
         "name": "Kayden D'Mello",
         "github": "dmellok"
       },
-      "tags": ["media", "home-assistant"],
+      "tags": [
+        "media",
+        "home-assistant"
+      ],
       "kind": "widget",
       "tesserae_compat": "1.x",
       "official": true,
-      "screenshot_sizes": ["lg"],
+      "screenshot_sizes": [
+        "lg"
+      ],
       "extra_screenshot_count": 9,
-      "folders": ["koi_pond"],
+      "folders": [
+        "koi_pond"
+      ],
       "release": {
         "version": "0.1.0",
         "tarball_url": "https://github.com/dmellok/tesserae-widget-koi-pond/archive/refs/tags/v0.1.0.tar.gz",
@@ -1990,11 +2055,15 @@
         "name": "Kayden D'Mello",
         "github": "dmellok"
       },
-      "tags": ["media"],
+      "tags": [
+        "media"
+      ],
       "kind": "widget",
       "tesserae_compat": "1.x",
       "official": true,
-      "screenshot_sizes": ["lg"],
+      "screenshot_sizes": [
+        "lg"
+      ],
       "extra_screenshot_count": 2,
       "release": {
         "version": "0.1.0",
@@ -2002,6 +2071,38 @@
         "sha256": "dfe213230871b72a8242c218bdcb21e1619d6e62b10498c97a823f32cc089c0f"
       },
       "source": "https://github.com/dmellok/tesserae-widget-twonks"
+    },
+    {
+      "id": "ha_solarflow_energy",
+      "name": "HA SolarFlow Energy",
+      "description": "Live SolarFlow / Zendure AIO snapshot via Home Assistant Core: PV production, house consumption, battery SOC/power, grid usage with optional 24h sparkline and Forecast.Solar totals.",
+      "icon": "ph-chart-line",
+      "author": {
+        "name": "ibr",
+        "github": "ibr"
+      },
+      "tags": [
+        "home-assistant",
+        "energy",
+        "solar"
+      ],
+      "kind": "widget",
+      "tesserae_compat": "1.x",
+      "official": false,
+      "screenshot_sizes": [
+        "sm",
+        "md",
+        "lg"
+      ],
+      "folders": [
+        "ha_solarflow_energy"
+      ],
+      "release": {
+        "version": "2.2.0",
+        "tarball_url": "https://github.com/ibr/tesserae-widgets/releases/download/ha_solarflow_energy-v2.2.0/ha_solarflow_energy-2.2.0.tar.gz",
+        "sha256": "PLACEHOLDER"
+      },
+      "source": "https://github.com/ibr/tesserae-widgets"
     }
   ]
 }
