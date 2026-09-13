@@ -3,11 +3,18 @@
   "name": "HA SolarFlow Energy",
   "version": "2.2.0",
   "kind": "widget",
-  "locales": ["en", "de"],
+  "locales": [
+    "en",
+    "de"
+  ],
   "description": "Live SolarFlow / Zendure AIO snapshot via Home Assistant Core: PV, house, battery, grid. Optional 24h sparkline and Forecast.Solar totals.",
   "icon": "ph-chart-line",
   "supports": {
-    "sizes": ["sm", "md", "lg"]
+    "sizes": [
+      "sm",
+      "md",
+      "lg"
+    ]
   },
   "cell_options": [
     {
@@ -74,13 +81,26 @@
     }
   ],
   "fragments": [
-    { "id": "full", "label": "Full card", "w": 320, "h": 260, "icon": "ph-chart-line" },
-    { "id": "stats", "label": "Stats only", "w": 200, "h": 120, "icon": "ph-lightning" }
+    {
+      "id": "full",
+      "label": "Full card",
+      "w": 320,
+      "h": 260,
+      "icon": "ph-chart-line"
+    },
+    {
+      "id": "stats",
+      "label": "Stats only",
+      "w": 200,
+      "h": 120,
+      "icon": "ph-lightning"
+    }
   ],
   "render": {
     "needs_network": false
   },
   "requires": [
+    "network:*",
     "settings:plugin/ha_core"
   ]
 }
