@@ -2083,8 +2083,7 @@
       },
       "tags": [
         "home-assistant",
-        "energy",
-        "solar"
+        "utility"
       ],
       "kind": "widget",
       "tesserae_compat": "1.x",
