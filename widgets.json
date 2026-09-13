@@ -2099,7 +2099,7 @@
       "release": {
         "version": "2.2.0",
         "tarball_url": "https://github.com/ibr/tesserae-widgets/releases/download/ha_solarflow_energy-v2.2.0/ha_solarflow_energy-2.2.0.tar.gz",
-        "sha256": "PLACEHOLDER"
+        "sha256": "13d8ffaef3efaae0cb5eb5c297a3c20fd0cc9b76d4ab833e78f5e9680e793d62"
       },
       "source": "https://github.com/ibr/tesserae-widgets"
     }
